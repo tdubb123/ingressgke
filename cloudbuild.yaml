@@ -1,0 +1,9 @@
+steps:
+
+# deploy ingress image to GKE
+- name: "gcr.io/cloud-builders/gke-deploy"
+  args:
+  - apply
+  - --filename=ingress.yaml
+  - --location=us-central1
+  - --cluster=cluster-1
