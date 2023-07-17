@@ -6,4 +6,4 @@ steps:
   - apply
   - --filename=ingress.yaml
   - --location=us-central1
-  - --cluster=cluster-1
+  - --cluster=my-first-gke-cluster
